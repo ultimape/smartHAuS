@@ -4,30 +4,48 @@ intelligent **_H_** ome **_Au_** tomation **_S_** ystem
 
 ----
 
-  Table Of Contents 
+Table Of Contents 
+  
   
 General Information 
+
 &nbsp;&nbsp;&nbsp;&nbsp;System Overview 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is smartHAuS? 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intelligence? 
 
+
 System Summary 
+
 &nbsp;&nbsp;&nbsp;&nbsp;Data Flows 
+
 
 Getting Started 
 
+
 Quick Start 
 
+
 Advance/Technical Information 
+
 &nbsp;&nbsp;&nbsp;&nbsp;the icanHAS protocol 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Protocol Basics 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other Responses
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initial icanHAS device connection 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example of Types 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;icanHAS Protocol Example
  
+
 Reference 
+
 &nbsp;&nbsp;&nbsp;&nbsp;Products 
+
 &nbsp;&nbsp;&nbsp;&nbsp;Guides 
 
 ##General Information 
@@ -85,7 +103,7 @@ On a working system* simply plug in an icanHAS compatible device, login into the
 
 After the device has been authenticated, it will be usable in any of the other sections (scripting, tagging, etc).  The first thing you may want to do is to set up permissions for whatever features the device provides since the defaults are rather restrictive.
 
-* a working system would involve having a webserver properly configured to serve up the smartHAuS front-end.  At this time no help information is availible for the install process, as the system is not in a production state.
+\* a working system would involve having a webserver properly configured to serve up the smartHAuS front-end.  At this time no help information is availible for the install process, as the system is not in a production state.
 
 ----
 
@@ -194,17 +212,17 @@ Below is an example of what types the brain is capable of recognizing.
     ---  ----------                   ----------
     x)   icanHAS?                     icanHAS:"cheeseburger"\n
     
-    1)   Device?\n                    Name:“device name”\n
+    1)   Device?\n                    Name:?device name?\n
     2)   OK:"device name"\n
-    3)                                UID: “0"\n
+    3)                                UID: ?0"\n
     4)   OK:"0"\n 
     
                     If UID == 0
     5)   UID:"10"\n                   OK:"10"\n 
     
-    6)   Inputs?\n                    ID: “1”\n
+    6)   Inputs?\n                    ID: ?1?\n
     7)   OK:"1"\n
-    8)                                Name:”Temperature”\n
+    8)                                Name:?Temperature?\n
     9)   OK:"Temperature"\n
                        (etc)
     23)                               ID!"1"\n
@@ -218,7 +236,7 @@ Below is an example of what types the brain is capable of recognizing.
              (nothing; device is reconnected) 
     
                     Querying Input
-    1)   Input?”1”                    "1":“50”\n
+    1)   Input??1?                    "1":?50?\n
     
                     Specifying Output
     1)   "1":"on"                     OK:"on"
