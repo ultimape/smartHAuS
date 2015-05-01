@@ -91,6 +91,12 @@ Behind the web-interface is the device manager. The manager handles connection t
 
 During authorization, the user can set up access levels for the device and override it for individual features. Signals from the authenticated devices are sent to the Scripter which the user can configure and send commands to operate the devices. There are some basic scripts that just log the data for the user. The system also has auto-generated scripts for each output that the user can run on command. Inputs and outputs are queued, and are sent as soon as the system is ready.
 
+![alt text][devicemang]
+
+
+
+[devicemang]: ./images/devicemang.png "Device Management Flow"
+
 ----
 
 ##Getting Started 
