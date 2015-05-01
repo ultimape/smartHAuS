@@ -212,17 +212,17 @@ Below is an example of what types the brain is capable of recognizing.
     ---  ----------                   ----------
     x)   icanHAS?                     icanHAS:"cheeseburger"\n
     
-    1)   Device?\n                    Name:?device name?\n
+    1)   Device?\n                    Name:"device name"\n
     2)   OK:"device name"\n
-    3)                                UID: ?0"\n
+    3)                                UID:"0"\n
     4)   OK:"0"\n 
     
                     If UID == 0
     5)   UID:"10"\n                   OK:"10"\n 
     
-    6)   Inputs?\n                    ID: ?1?\n
+    6)   Inputs?\n                    ID:"1"\n
     7)   OK:"1"\n
-    8)                                Name:?Temperature?\n
+    8)                                Name:"Temperature"\n
     9)   OK:"Temperature"\n
                        (etc)
     23)                               ID!"1"\n
@@ -232,11 +232,11 @@ Below is an example of what types the brain is capable of recognizing.
     31)  OK! 
     
                     If UID =/= 0 
-    5)   OK!
+    1)   OK!
              (nothing; device is reconnected) 
     
                     Querying Input
-    1)   Input??1?                    "1":?50?\n
+    1)   Input?"1"                    "1":"50"\n
     
                     Specifying Output
     1)   "1":"on"                     OK:"on"
