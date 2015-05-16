@@ -41,13 +41,13 @@ In summary: Most systems can "control the kitchen sink". Ours will "know" what a
 
 "icanHAS" = Interface for Connecting Atypical Nodes to Home Automation System 
   
- * two way protocol 
- * indicate features and capabilities of device 
- * note types of data sent: scalar, text, percent, and on-off signals etc 
- * transmit command signals to control devices 
- * transmit query signals to access device's sensors 
- * transmit emergency shutoff signals that over-ride default operation. 
- * syncing capabilities for security 
+ * Two way protocol 
+ * Indicate features and capabilities of device 
+ * Note types of data sent: scalar, text, percent, and on-off signals etc 
+ * Transmit command signals to control devices 
+ * Transmit query signals to access device's sensors 
+ * Transmit emergency shutoff signals that over-ride default operation. 
+ * Syncing capabilities for security 
 
 
 ###Satellite Devices
@@ -74,7 +74,7 @@ Since the nature of this system is to deal with devices in a personal home, secu
 
 ###Performance
 
-The performance of the system is purely based on the latency that could occur between the "brain" and the peripheral device. We do not envision this being a problem since the network will be standard 10/100BaseT ethernet setup. 
+The performance of the system is purely based on the latency that could occur between the "brain" and the peripheral device. We do not envision this being a problem since the network will be standard 10/100BaseT Ethernet setup. 
 
 Depending on the throughput required, certain types of data (music, video) may need to be sent in alternate protocols on a per-device basis. This might be cut due to time.
 
