@@ -16,11 +16,13 @@ Develop a home automation system that is controllable via website / computer sof
 
 ###Focus: 
 
-Easy to use 
-Expandable 
-Cheap 
-Power Efficient 
-Ethernet -> high bandwidth and large user-base 
+Easy to use -> Usability of a product leads to a good user experience.
+
+Expandable -> Flexibility improves value proposition.
+
+Cheap Hardware -> Consumer adoptions requires low cost implementation.
+
+Power Efficient -> Intended to run continuously.
 
 
 ###Intended Features: 
