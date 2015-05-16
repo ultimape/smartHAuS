@@ -3,8 +3,7 @@ intelligent **_H_** ome **_Au_** tomation **_S_** ystem
 
 
 ##Preamble
-This is a the final system design for VTC Senior Project known as smartHAuS (Spring 2009).
-
+This is the final systems design for the VTC Senior Project known as smartHAuS (Spring 2009).
 
 
 ##User Interface

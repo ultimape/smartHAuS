@@ -1,4 +1,3 @@
-
 #Initial Design Proposal - smartHAuS
 intelligent **_H_** ome **_Au_** tomation **_S_** ystem
 

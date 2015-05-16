@@ -3,7 +3,7 @@ intelligent **_H_** ome **_Au_** tomation **_S_** ystem
 
 
 ##Preamble
-This is a the formal design for VTC Senior Project known as smartHAuS (Spring 2009).
+This is the formal design for the VTC Senior Project known as smartHAuS (Spring 2009).
 
 
 ##Introduction 
