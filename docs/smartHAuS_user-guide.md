@@ -2,6 +2,11 @@
 #User Manual - smartHAuS
 intelligent **_H_** ome **_Au_** tomation **_S_** ystem
 
+
+##Preamble
+This is a user manual/guide to the VTC Senior Project known as smartHAuS (Spring 2009).
+
+
 ----
 
 Table Of Contents 
