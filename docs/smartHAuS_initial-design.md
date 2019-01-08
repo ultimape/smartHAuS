@@ -1,19 +1,19 @@
-#Initial Design Proposal - smartHAuS
+# Initial Design Proposal - smartHAuS
 intelligent **_H_** ome **_Au_** tomation **_S_** ystem
 
 
-##Preamble
+## Preamble
 This is a project proposal for Nicholas Perry's Senior Project (Spring 2009).
 
 
-##Design Notes: 
+## Design Notes: 
 
 
-###Major Goal:
+### Major Goal:
 Develop a home automation system that is controllable via website / computer software / attached hardware. 
 
 
-###Focus: 
+### Focus: 
 
 Easy to use -> Usability of a product leads to a good user experience.
 
@@ -24,7 +24,7 @@ Cheap Hardware -> Consumer adoptions requires low cost implementation.
 Power Efficient -> Intended to run continuously.
 
 
-###Intended Features: 
+### Intended Features: 
 
  * Develop a protocol that allows hooking up multiple sensor/slave/manager/interface devices in a single network. 
     - Include an easy to use network awareness setup. 
@@ -42,7 +42,7 @@ Power Efficient -> Intended to run continuously.
  * Use open standards and open api to allow other people to develop and use system. 
 
 
-###Possible Features: 
+### Possible Features: 
 
  * Intelligent task management 
     - Prompt to save certain combinations of devices and also attempt to give good suggestions. 
@@ -52,7 +52,7 @@ Power Efficient -> Intended to run continuously.
     - Easy way to append modules into already established tasks. 
 
 
-##Proof of concept: 
+## Proof of concept: 
 
  * Develop simple controller for "room counting", and light switch manipulation. 
     - Hardware that reliably counts the number of people in a room. 
@@ -67,7 +67,7 @@ Power Efficient -> Intended to run continuously.
  * Possibly support Power-over-Ethernet for an all in one connection option. 
 
 
-##Planned Direction:
+## Planned Direction:
 
 I'd like to model the systems around the way that the home is used at my father's house, creating intelligence in the setup that allows for convenience on top of the typical power saving features of light control.
 
@@ -100,7 +100,7 @@ I have yet to get the idea of orchestrating the devices written down concisely, 
 - When the person returns: the system resumes watching the movie after a short timeout.
 
 
-##Hardware: 
+## Hardware: 
 
 Linksys NSLU2 ~$45 with shipping 
 
@@ -126,7 +126,8 @@ xPort Direct ~$28 - ~$47 (shipping cost unknown)
 URL:  http://www.gridconnect.com/xportdirect.html 
 
   
-##Discussion:
+## Discussion:
+
 It definitely is an ambitious project, but at the same time it's features are naturally modular. I figure the first week or two will be lots of brainstorming on design goals, then how the devices should communicate. But once that is out of the way, the main hub and the external devices should be able to develop independently. 
 
 From looking into home automation systems, there seems to be a lot of technologies that are really good at doing one thing. I'd like to focus on creating novel uses of these systems by orchestrating them through the central hub. Making decisions on data necessitates a reasonably capable computer along with a good deal of data to base those decisions on. 
@@ -139,18 +140,11 @@ Using Ethernet allows the integration of the computer (along with the devices) o
 
 I've looked into a few of the major names in home monitoring systems, (basically anybody who is actually selling a serious product.)  X10 and INSTEon seem to be the dominating devices in the marketplace. They both use the power lines in the home to send data, with the INSTEON system using them in conjunction with wireless signals to get around certain hurdles. Insteon supports 16bytes per second, and x10 is only a fraction of that.
 
-##Initial Name ideas:
+## Initial Name ideas:
 
 smartHAS - Intelligent Home Automation System 
 
 smart Hauss (kinda like "smart ass") 
 
 Origin: "smarthas" (pronounced with a "th" as in "the") is a Hindu philosophy of the connected and oneness of what might otherwise be separate deities. This approaches the idea of connecting separate systems into a more powerful and intelligent "being".
-
-
-
-
-
-
-   
 
