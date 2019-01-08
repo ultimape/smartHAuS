@@ -1,6 +1,6 @@
 # smartHAuS Budget Breakdown
 
-| Item                     | Cost | Qty. | Shipping       | total   | Source       | Notes                                                                    |
+| Item                     | Cost | Qty. | Shipping       | total   | Source       | Notes                                                                   |
 | ------------------------ | ---- | ---- | -------------- | ------- | ------------ | ----------------------------------------------------------------------- |
 | HCS12                    | $50  | 1    | $0             | $50     | CPE Course   | Came with expansion board, LCD character display, base hcs12 module.
 | Remote Light Ctrl        | $10  | 1    | $0             | $10     | Walgreens    | Awesome, wireless hackable thing.
